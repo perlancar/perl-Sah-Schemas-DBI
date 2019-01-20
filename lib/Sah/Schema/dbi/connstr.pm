@@ -10,6 +10,7 @@ our $schema = [str => {
 
 _
     match => '\Adbi:\w+:.+\z',
+    'x.completion' => ['dbi_connstr'],
 }, {}];
 
 1;
